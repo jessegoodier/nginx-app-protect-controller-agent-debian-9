@@ -1,6 +1,6 @@
 FROM debian:9.13
 
-LABEL maintainer="NGINX Controller Engineering"
+# This is for demo purposes only
 
 # e.g '1234567890'
 ARG API_KEY 
