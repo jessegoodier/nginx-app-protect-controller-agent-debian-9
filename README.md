@@ -11,4 +11,4 @@ docker build --build-arg CONTROLLER_URL=https://labcontroller.nginx.rocks:8443/1
 
 ### run
 
-docker run --name lab-gw1 -e HOSTNAME=lab-gw1 -d nginx-app-protect-with-controller-agent
+docker run --name lab-gw2 --hostname=lab-gw2 -d nginx-app-protect-with-controller-agent
