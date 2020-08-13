@@ -1,4 +1,5 @@
 This is just a test with NGINX App Protect running in a debian 9 container with controller agent.
+Does not have the controller app security binary yet, just for traditional nginx metrics/visibility (not controller managed).
 
 documentation on controller agent:
 <https://github.com/nginxinc/docker-nginx-controller>
